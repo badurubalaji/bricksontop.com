@@ -164,8 +164,25 @@
     }
   }
 
+  /* build local image paths from `images` (count) + `default-image` (1-based index) */
+  function projectImages(p) {
+    const n = typeof p.images === "number" ? p.images
+             : Array.isArray(p.images) ? p.images.length : 0;
+    const arr = [];
+    for (let i = 1; i <= n; i++) {
+      arr.push(`assets/images/${p.id}/${i}.jpg`);
+    }
+    return arr;
+  }
+  function projectCover(p) {
+    const arr = projectImages(p);
+    if (!arr.length) return "";
+    const idx = Math.max(1, Math.min(arr.length, parseInt(p["default-image"] || 1, 10))) - 1;
+    return arr[idx];
+  }
+
   function card(p) {
-    const cover = (p.images && p.images[0]) || "";
+    const cover = projectCover(p);
     const badge = p.status === "current" ? "Live · Open" : "Exited";
     const badgeCls = p.status === "current" ? "card__badge--current" : "";
     return `
@@ -228,7 +245,7 @@
     modal.hidden = false;
     requestAnimationFrame(() => modal.classList.add("is-open"));
     document.body.style.overflow = "hidden";
-    initSlider(p.images || []);
+    initSlider(projectImages(p));
     $(".modal__panel", modal).focus({ preventScroll: true });
   }
 
@@ -261,18 +278,28 @@
       ? `<span class="modal__status modal__status--live">Live · Cohort open</span>`
       : `<span class="modal__status">Exited</span>`;
 
-    const images = (p.images && p.images.length ? p.images : [""]).map((src, i) => `
-      <div class="slider__slide" data-i="${i}" ${i === 0 ? "" : 'aria-hidden="true"'}>
-        <img src="${esc(src)}" alt="${esc(p.name)} — image ${i + 1}"
-             loading="${i === 0 ? "eager" : "lazy"}" decoding="async"
-             width="1600" height="1200" />
-      </div>
-    `).join("");
+    /* Build slider images via for-loop. Default image first; rest in order. */
+    const all = projectImages(p);
+    const defIdx = Math.max(1, Math.min(all.length || 1, parseInt(p["default-image"] || 1, 10))) - 1;
+    const ordered = all.length
+      ? [all[defIdx], ...all.filter((_, i) => i !== defIdx)]
+      : [""];
 
-    const dots = (p.images || []).map((_, i) => `
-      <button type="button" class="slider__dot${i === 0 ? " is-active" : ""}"
-              data-go="${i}" aria-label="Image ${i + 1}"></button>
-    `).join("");
+    let images = "";
+    for (let i = 0; i < ordered.length; i++) {
+      images += `
+        <div class="slider__slide" data-i="${i}" ${i === 0 ? "" : 'aria-hidden="true"'}>
+          <img src="${esc(ordered[i])}" alt="${esc(p.name)} — image ${i + 1}"
+               loading="${i === 0 ? "eager" : "lazy"}" decoding="async"
+               width="1600" height="1200" />
+        </div>`;
+    }
+
+    let dots = "";
+    for (let i = 0; i < ordered.length; i++) {
+      dots += `<button type="button" class="slider__dot${i === 0 ? " is-active" : ""}"
+                       data-go="${i}" aria-label="Image ${i + 1}"></button>`;
+    }
 
     const facts = [
       ["Developer",   p.developer],
@@ -297,7 +324,7 @@
         <div class="detail__media">
           <div class="slider" id="slider">
             <div class="slider__track">${images}</div>
-            ${p.images && p.images.length > 1 ? `
+            ${ordered.length > 1 ? `
               <button class="slider__nav slider__nav--prev" type="button" aria-label="Previous image">
                 <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </button>
@@ -305,7 +332,7 @@
                 <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </button>
               <div class="slider__dots" role="tablist">${dots}</div>
-              <span class="slider__count mono"><span id="slider-i">1</span> / ${p.images.length}</span>
+              <span class="slider__count mono"><span id="slider-i">1</span> / ${ordered.length}</span>
             ` : ""}
           </div>
         </div>

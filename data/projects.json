@@ -14,16 +14,14 @@
       "rera": "PRM/KA/RERA/1251/446/PR/200112/003421",
       "tagline": "A quiet forest of teak, stone & sky",
       "description": "Twenty-four architect-designed villas on Sarjapur's southern edge. Co-investment slots open against a registered partnership share, with exit at handover.",
-      "images": [
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80&auto=format",
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&q=80&auto=format"
-      ],
+      "images": 2,
       "highlights": [
         "Registered partnership share",
         "Escrowed milestone drawdowns",
         "Quarterly site reports",
         "Exit at handover · Dec 2026"
-      ]
+      ],
+      "default-image": 1
     },
     {
       "id": "nandi-foothills",
@@ -39,16 +37,14 @@
       "rera": "PRM/KA/RERA/1251/446/PR/200114/003872",
       "tagline": "Land that works while you wait.",
       "description": "Mango and sandalwood farmland at the foot of Nandi Hills. Sale deed registered directly in the investor's name. Annual dividend from crop yield plus land appreciation.",
-      "images": [
-        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600&q=80&auto=format",
-        "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=1600&q=80&auto=format"
-      ],
+      "images": 2,
       "highlights": [
         "Sale deed in investor's name",
         "Annual dividend from yield",
         "Full farm management included",
         "45 min from Kempegowda Airport"
-      ]
+      ],
+      "default-image": 1
     },
     {
       "id": "devanahalli-heights",
@@ -64,16 +60,14 @@
       "rera": "PRM/KA/RERA/1251/446/PR/200116/003955",
       "tagline": "The airport corridor, plotted.",
       "description": "BDA-approved plotted development 8 km from Kempegowda International Airport. Investors register the plot directly and exit in tranches as the corridor re-prices.",
-      "images": [
-        "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1600&q=80&auto=format",
-        "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=80&auto=format"
-      ],
+      "images": 2,
       "highlights": [
         "BDA-approved layout",
         "Direct sale deed in your name",
         "Exit in tranches over 24 months",
         "Underground power + fibre"
-      ]
+      ],
+      "default-image": 1
     },
     {
       "id": "hebbal-skyline",
@@ -89,16 +83,14 @@
       "rera": "PRM/KA/RERA/1251/446/PR/200118/004010",
       "tagline": "A tower for the north city.",
       "description": "Thirty-six 3 & 4 BHK residences in a slender 22-floor tower overlooking Hebbal lake. Co-investment slots backed by a registered sale agreement on the underlying unit.",
-      "images": [
-        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&q=80&auto=format",
-        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600&q=80&auto=format"
-      ],
+      "images": 2,
       "highlights": [
         "Registered sale agreement",
         "Lake-facing inventory",
         "Designed by Studio Ansel",
         "Resale exit · Jun 2027"
-      ]
+      ],
+      "default-image": 1
     },
     {
       "id": "whitefield-enclave",
@@ -114,16 +106,14 @@
       "rera": "PRM/KA/RERA/1251/446/PR/190822/002214",
       "tagline": "Eighteen homes. Nine months early.",
       "description": "Closed in 32 months with a fully exited cohort. Investor IRR on this co-investment: 24.2% CAGR. All capital returned within 30 days of handover.",
-      "images": [
-        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1600&q=80&auto=format",
-        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600&q=80&auto=format"
-      ],
+      "images": 2,
       "highlights": [
         "Investor IRR · 24.2% CAGR",
         "Fully exited in 32 months",
         "Capital returned in 30 days",
         "100% of investors re-invested"
-      ]
+      ],
+      "default-image": 1
     },
     {
       "id": "hoskote-acres",
@@ -139,16 +129,14 @@
       "rera": "PRM/KA/RERA/1251/446/PR/190710/002108",
       "tagline": "Eighty-six titled plots, on time.",
       "description": "BMRDA-approved plotted layout. All plots registered in investor names. Exited in tranches with average IRR of 23.8% CAGR.",
-      "images": [
-        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600&q=80&auto=format",
-        "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1600&q=80&auto=format"
-      ],
+      "images": 2,
       "highlights": [
         "BMRDA approved",
         "Investor IRR · 23.8% CAGR",
         "Exit in tranches",
         "All plots registered"
-      ]
+      ],
+      "default-image": 1
     },
     {
       "id": "kanakapura-grove",
@@ -164,16 +152,14 @@
       "rera": "PRM/KA/RERA/1251/446/PR/180512/001702",
       "tagline": "Three mango harvests in.",
       "description": "Three mango harvests delivered, dividends paid every January. Land value appreciation: +58% since onboarding. 70% of investors still holding.",
-      "images": [
-        "https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?w=1600&q=80&auto=format",
-        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600&q=80&auto=format"
-      ],
+      "images": 2,
       "highlights": [
         "3 harvests delivered",
         "Land value +58%",
         "Annual dividend on schedule",
         "70% still holding"
-      ]
+      ],
+      "default-image": 1
     },
     {
       "id": "jubilee-row",
@@ -189,16 +175,14 @@
       "rera": "P02400006789",
       "tagline": "Our first project outside Bengaluru.",
       "description": "Twelve residences off Road No. 36. Fully exited at 21.6% IRR. Marked our first project in Hyderabad and the start of two-city operations.",
-      "images": [
-        "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=1600&q=80&auto=format",
-        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1600&q=80&auto=format"
-      ],
+      "images": 2,
       "highlights": [
         "First Hyderabad project",
         "Investor IRR · 21.6% CAGR",
         "Fully exited in 28 months",
         "Opened our second city"
-      ]
+      ],
+      "default-image": 1
     }
   ],
   "testimonials": [
