@@ -62,9 +62,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
   <link rel="preload" as="image" fetchpriority="high"
-        href="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80&auto=format&fit=crop" />
-  <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" />
+        href="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=70&auto=format&fit=crop"
+        imagesrcset="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=480&q=70&auto=format&fit=crop 480w,
+                     https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=70&auto=format&fit=crop 800w,
+                     https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=75&auto=format&fit=crop 1200w"
+        imagesizes="(max-width: 720px) 100vw, 560px" />
+  <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap"
+        onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" />
+  </noscript>
 
   <link rel="stylesheet" href="styles.css" />
 
@@ -135,7 +144,7 @@
     <div class="nav__inner">
       <a class="brand" href="#top" aria-label="Bricks On Top — home">
         <img class="brand__mark"
-             src="assets/logo-mark-ivory-192.png"
+             src="assets/logo-mark-ivory-80.png"
              alt=""
              width="40" height="40"
              decoding="async" />
@@ -194,9 +203,13 @@
         <aside class="hero__panel" aria-label="At a glance">
           <figure class="hero__frame">
             <img
-              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=70&auto=format&fit=crop"
+              srcset="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=480&q=70&auto=format&fit=crop 480w,
+                      https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=70&auto=format&fit=crop 800w,
+                      https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=75&auto=format&fit=crop 1200w"
+              sizes="(max-width: 720px) 100vw, 560px"
               alt="Contemporary residential project in Bengaluru"
-              width="1600" height="1200"
+              width="800" height="600"
               fetchpriority="high" />
             <figcaption>
               <span class="mono">Live · 04 / 11</span>
@@ -560,7 +573,7 @@
   <footer class="foot">
     <div class="foot__top">
       <div class="foot__brand">
-        <img src="assets/logo-mark-ivory-192.png"
+        <img src="assets/logo-mark-ivory-80.png"
              alt="" width="32" height="32" decoding="async" loading="lazy" />
         <strong>Bricks On Top</strong>
         <span>Real growth, brick by brick.</span>
