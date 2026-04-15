@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /data/
+
+# Explicit major crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Block archive / scraper bots that add no SEO value
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://bricksontop.com/sitemap.xml

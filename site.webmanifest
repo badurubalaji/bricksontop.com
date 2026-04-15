@@ -1,0 +1,25 @@
+{
+  "name": "Bricks On Top — Real Estate Co-Investments",
+  "short_name": "Bricks On Top",
+  "description": "Bengaluru-based real-estate co-investment platform. Vetted property opportunities with trusted developers, by invitation.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0E100F",
+  "theme_color": "#0E100F",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["business", "finance", "real-estate"],
+  "icons": [
+    { "src": "assets/favicon-192.png", "type": "image/png", "sizes": "192x192", "purpose": "any" },
+    { "src": "assets/favicon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "any" },
+    { "src": "assets/favicon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" },
+    { "src": "assets/logo-mark-ivory-192.png", "type": "image/png", "sizes": "192x192", "purpose": "monochrome" }
+  ],
+  "shortcuts": [
+    { "name": "Live Opportunities", "short_name": "Portfolio", "url": "/#portfolio" },
+    { "name": "Investors & Growth", "short_name": "Returns",   "url": "/#returns" },
+    { "name": "Talk to us",         "short_name": "Enquire",   "url": "/#enquire" }
+  ]
+}

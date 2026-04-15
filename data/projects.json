@@ -1,0 +1,236 @@
+{
+  "projects": [
+    {
+      "id": "raintree-residences",
+      "name": "Raintree Residences",
+      "type": "Luxury Villas · Co-investment",
+      "developer": "Auralis Builders",
+      "location": "Sarjapur Road, Bengaluru",
+      "status": "current",
+      "price": "₹38 L onwards",
+      "units": "24 Villas · 8 open",
+      "area": "4.2 Acres",
+      "possession": "32-month exit",
+      "rera": "PRM/KA/RERA/1251/446/PR/200112/003421",
+      "tagline": "A quiet forest of teak, stone & sky",
+      "description": "Twenty-four architect-designed villas on Sarjapur's southern edge. Co-investment slots open against a registered partnership share, with exit at handover.",
+      "images": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80&auto=format",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&q=80&auto=format"
+      ],
+      "highlights": [
+        "Registered partnership share",
+        "Escrowed milestone drawdowns",
+        "Quarterly site reports",
+        "Exit at handover · Dec 2026"
+      ]
+    },
+    {
+      "id": "nandi-foothills",
+      "name": "Nandi Foothills Estate",
+      "type": "Managed Farmland · Direct deed",
+      "developer": "Greenstone Agro Ventures",
+      "location": "Chikkaballapur, near Nandi Hills",
+      "status": "current",
+      "price": "₹12 L onwards",
+      "units": "38 Plots · 14 open",
+      "area": "22 Acres",
+      "possession": "Open-ended hold",
+      "rera": "PRM/KA/RERA/1251/446/PR/200114/003872",
+      "tagline": "Land that works while you wait.",
+      "description": "Mango and sandalwood farmland at the foot of Nandi Hills. Sale deed registered directly in the investor's name. Annual dividend from crop yield plus land appreciation.",
+      "images": [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600&q=80&auto=format",
+        "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=1600&q=80&auto=format"
+      ],
+      "highlights": [
+        "Sale deed in investor's name",
+        "Annual dividend from yield",
+        "Full farm management included",
+        "45 min from Kempegowda Airport"
+      ]
+    },
+    {
+      "id": "devanahalli-heights",
+      "name": "Devanahalli Heights",
+      "type": "Plotted Development · Direct deed",
+      "developer": "Northgate Estates",
+      "location": "Devanahalli, Bengaluru North",
+      "status": "current",
+      "price": "₹22 L onwards",
+      "units": "112 Plots · 31 open",
+      "area": "14.8 Acres",
+      "possession": "24-month exit",
+      "rera": "PRM/KA/RERA/1251/446/PR/200116/003955",
+      "tagline": "The airport corridor, plotted.",
+      "description": "BDA-approved plotted development 8 km from Kempegowda International Airport. Investors register the plot directly and exit in tranches as the corridor re-prices.",
+      "images": [
+        "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1600&q=80&auto=format",
+        "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=80&auto=format"
+      ],
+      "highlights": [
+        "BDA-approved layout",
+        "Direct sale deed in your name",
+        "Exit in tranches over 24 months",
+        "Underground power + fibre"
+      ]
+    },
+    {
+      "id": "hebbal-skyline",
+      "name": "Hebbal Skyline",
+      "type": "Bespoke Apartments · Co-investment",
+      "developer": "Studio Ansel × Verve Realty",
+      "location": "Hebbal, Bengaluru",
+      "status": "current",
+      "price": "₹50 L onwards",
+      "units": "36 Residences · 6 open",
+      "area": "1.8 Acres",
+      "possession": "38-month exit",
+      "rera": "PRM/KA/RERA/1251/446/PR/200118/004010",
+      "tagline": "A tower for the north city.",
+      "description": "Thirty-six 3 & 4 BHK residences in a slender 22-floor tower overlooking Hebbal lake. Co-investment slots backed by a registered sale agreement on the underlying unit.",
+      "images": [
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&q=80&auto=format",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600&q=80&auto=format"
+      ],
+      "highlights": [
+        "Registered sale agreement",
+        "Lake-facing inventory",
+        "Designed by Studio Ansel",
+        "Resale exit · Jun 2027"
+      ]
+    },
+    {
+      "id": "whitefield-enclave",
+      "name": "Whitefield Enclave",
+      "type": "Luxury Villas · Co-investment",
+      "developer": "Auralis Builders",
+      "location": "Whitefield, Bengaluru",
+      "status": "completed",
+      "price": "Avg ₹42 L · 14 investors",
+      "units": "18 Villas",
+      "area": "3.4 Acres",
+      "possession": "Held 32 months",
+      "rera": "PRM/KA/RERA/1251/446/PR/190822/002214",
+      "tagline": "Eighteen homes. Nine months early.",
+      "description": "Closed in 32 months with a fully exited cohort. Investor IRR on this co-investment: 24.2% CAGR. All capital returned within 30 days of handover.",
+      "images": [
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1600&q=80&auto=format",
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600&q=80&auto=format"
+      ],
+      "highlights": [
+        "Investor IRR · 24.2% CAGR",
+        "Fully exited in 32 months",
+        "Capital returned in 30 days",
+        "100% of investors re-invested"
+      ]
+    },
+    {
+      "id": "hoskote-acres",
+      "name": "Hoskote Acres",
+      "type": "Plotted Development · Direct deed",
+      "developer": "Northgate Estates",
+      "location": "Hoskote, Bengaluru East",
+      "status": "completed",
+      "price": "Avg ₹18 L · 26 investors",
+      "units": "86 Plots",
+      "area": "11.2 Acres",
+      "possession": "Held 22 months",
+      "rera": "PRM/KA/RERA/1251/446/PR/190710/002108",
+      "tagline": "Eighty-six titled plots, on time.",
+      "description": "BMRDA-approved plotted layout. All plots registered in investor names. Exited in tranches with average IRR of 23.8% CAGR.",
+      "images": [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600&q=80&auto=format",
+        "https://images.unsplash.com/photo-1448630360428-65456885c650?w=1600&q=80&auto=format"
+      ],
+      "highlights": [
+        "BMRDA approved",
+        "Investor IRR · 23.8% CAGR",
+        "Exit in tranches",
+        "All plots registered"
+      ]
+    },
+    {
+      "id": "kanakapura-grove",
+      "name": "Kanakapura Grove",
+      "type": "Managed Farmland · Direct deed",
+      "developer": "Greenstone Agro Ventures",
+      "location": "Kanakapura, south of Bengaluru",
+      "status": "completed",
+      "price": "Avg ₹14 L · 18 investors",
+      "units": "42 Plots",
+      "area": "18 Acres",
+      "possession": "Held 38 months",
+      "rera": "PRM/KA/RERA/1251/446/PR/180512/001702",
+      "tagline": "Three mango harvests in.",
+      "description": "Three mango harvests delivered, dividends paid every January. Land value appreciation: +58% since onboarding. 70% of investors still holding.",
+      "images": [
+        "https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?w=1600&q=80&auto=format",
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1600&q=80&auto=format"
+      ],
+      "highlights": [
+        "3 harvests delivered",
+        "Land value +58%",
+        "Annual dividend on schedule",
+        "70% still holding"
+      ]
+    },
+    {
+      "id": "jubilee-row",
+      "name": "Jubilee Row",
+      "type": "Boutique Apartments · Co-investment",
+      "developer": "Hyderabad Habitat Co.",
+      "location": "Jubilee Hills, Hyderabad",
+      "status": "completed",
+      "price": "Avg ₹62 L · 11 investors",
+      "units": "12 Residences",
+      "area": "0.9 Acres",
+      "possession": "Held 28 months",
+      "rera": "P02400006789",
+      "tagline": "Our first project outside Bengaluru.",
+      "description": "Twelve residences off Road No. 36. Fully exited at 21.6% IRR. Marked our first project in Hyderabad and the start of two-city operations.",
+      "images": [
+        "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=1600&q=80&auto=format",
+        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1600&q=80&auto=format"
+      ],
+      "highlights": [
+        "First Hyderabad project",
+        "Investor IRR · 21.6% CAGR",
+        "Fully exited in 28 months",
+        "Opened our second city"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Anirudh & Meera Rao",
+      "project": "Whitefield Enclave · 14-investor co-invest",
+      "quote": "They sourced the deal, ran the diligence, and registered the partnership in our name. We didn't visit the site once until handover — and the IRR came in two points above the memo."
+    },
+    {
+      "name": "Vivek Narayan",
+      "project": "Hoskote Acres · plot held 22 months",
+      "quote": "I wanted real estate without becoming a real-estate person. The plot was registered in my name on day one, the quarterly updates were honest, and the exit was clean."
+    },
+    {
+      "name": "Kavitha Reddy",
+      "project": "Kanakapura Grove · still holding",
+      "quote": "Three mango harvests later, the dividend cheque shows up in January like clockwork. The land has nearly doubled. I'm in no hurry to exit."
+    },
+    {
+      "name": "Ramesh & Aruna Setty",
+      "project": "Devanahalli Heights · cohort 04",
+      "quote": "We've put money into three real-estate funds before. None of them showed us the title chain or let our lawyer read every page. Bricks On Top did both, before we'd even committed."
+    },
+    {
+      "name": "Sandeep Menon · NRI investor",
+      "project": "Raintree Residences · 3rd co-invest",
+      "quote": "Third project for me. The FEMA paperwork, the repatriation route, the tax letter — they handled everything. From Singapore, that matters."
+    },
+    {
+      "name": "Tara Krishnan · Family office",
+      "project": "Jubilee Row · exited 2025",
+      "quote": "The diligence call with their legal counsel answered every question I had. No pitch deck, no pressure. Just the memo and the title chain."
+    }
+  ]
+}

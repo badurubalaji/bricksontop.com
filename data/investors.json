@@ -1,0 +1,12 @@
+{
+  "headline": "A quiet, growing circle.",
+  "lede": "We pooled the first cheque in August 2023. Every opportunity since has closed by invitation — no advertising, no brokers, no cold outreach. The circle grows because investors bring the next investor.",
+  "milestones": [
+    { "date": "Aug 2023",  "count": 11,  "label": "First pool",          "note": "Friends, family, and one developer partner." },
+    { "date": "Jan 2024",  "count": 84,  "label": "3 projects live",     "note": "All in Bengaluru · 2 partner developers." },
+    { "date": "May 2025",  "count": 193, "label": "8 projects live",     "note": "6 partner developers · ₹140 Cr deployed." },
+    { "date": "Aug 2025",  "count": 251, "label": "Hyderabad opens",     "note": "Two-city operations · first NRI cohort." },
+    { "date": "Apr 2026",  "count": 284, "label": "Today · 4 live",      "note": "11 partner developers · ₹412 Cr deployed." }
+  ],
+  "footer": "Tickets typically range ₹10 L – ₹2 Cr depending on the opportunity. Some deals register the asset directly in your name; others use a registered LLP partnership share. This is not a prospectus or investment advice."
+}
