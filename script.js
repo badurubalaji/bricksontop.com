@@ -22,9 +22,23 @@
 
   /* ── sticky nav background on scroll ──────────────── */
   const nav = $("#nav");
-  const onScroll = () => nav.classList.toggle("is-scrolled", scrollY > 24);
+  let navScrolled = false;
+  let navTicking = false;
+  const applyNav = () => {
+    const next = scrollY > 24;
+    if (next !== navScrolled) {
+      navScrolled = next;
+      nav.classList.toggle("is-scrolled", next);
+    }
+    navTicking = false;
+  };
+  const onScroll = () => {
+    if (navTicking) return;
+    navTicking = true;
+    requestAnimationFrame(applyNav);
+  };
   addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
+  applyNav();
 
   /* ── mobile burger ────────────────────────────────── */
   const burger = $(".burger");
