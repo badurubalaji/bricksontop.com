@@ -1179,7 +1179,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
    RESPONSIVE
    ══════════════════════════════════════════════════════ */
 @media (max-width: 1024px) {
-  .nav__inner { grid-template-columns: auto 1fr auto; }
+  .nav__inner { grid-template-columns: 1fr auto; }
   .nav__links {
     position: fixed; top: 70px; left: 0; right: 0;
     flex-direction: column;
@@ -1192,7 +1192,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   }
   .nav__links.is-open { transform: none; }
   .nav .cta--pill { display: none; }
-  .burger { display: block; }
+  .burger { display: block; justify-self: end; }
 
   .hero__grid { grid-template-columns: 1fr; }
 
