@@ -39,22 +39,21 @@
       "images": 2,
       "highlights": [
         "Sale deed in investor's name",
-        "Annual dividend from yield",
-        "Full farm management included",
-        "45 min from Kempegowda Airport"
+        "numerous schools near by"
+        
       ],
       "default-image": 1
     },
     {
-      "id": "devanahalli-heights",
-      "name": "Devanahalli Heights",
+      "id": "Shanthika by Sannidhi",
+      "name": "Shanthika by Sannidhi",
       "type": "Plotted Development · Direct deed",
-      "developer": "Northgate Estates",
-      "location": "Devanahalli, Bengaluru North",
-      "status": "current",
-      "price": "₹22 L onwards",
-      "units": "112 Plots · 31 open",
-      "area": "14.8 Acres",
+      "developer": "Sannidhi Group",
+      "location": "Malur, Bengaluru ",
+      "status": "completed",
+      "price": "₹12 L onwards",
+      "units": "530 Plots · 0 open",
+      "area": "53 Acres",
       "possession": "24-month exit",
       "rera": "PRM/KA/RERA/1251/446/PR/200116/003955",
       "tagline": "The airport corridor, plotted.",
