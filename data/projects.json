@@ -69,25 +69,25 @@
       "default-image": 1
     },
     {
-      "id": "hebbal-skyline",
-      "name": "Hebbal Skyline",
-      "type": "Bespoke Apartments · Co-investment",
-      "developer": "Studio Ansel × Verve Realty",
-      "location": "Hebbal, Bengaluru",
+      "id": "Plotted development near STRR",
+      "name": "Plotted development near STRR",
+      "type": "Plotted Development · Land reg.",
+      "developer": "Renowned developer with 20+ projects",
+      "location": "STRR, Bengaluru",
       "status": "current",
-      "price": "₹50 L onwards",
-      "units": "36 Residences · 6 open",
-      "area": "1.8 Acres",
-      "possession": "38-month exit",
-      "rera": "PRM/KA/RERA/1251/446/PR/200118/004010",
+      "price": "₹30 L onwards",
+      "units": "40 plots · 14 open",
+      "area": "60 Acres",
+      "possession": "36-month exit",
+      "rera": "RERA approval in 1 year",
       "tagline": "A tower for the north city.",
-      "description": "Thirty-six 3 & 4 BHK residences in a slender 22-floor tower overlooking Hebbal lake. Co-investment slots backed by a registered sale agreement on the underlying unit.",
+      "description": "60 acre layout with RERA and BMRDA approved. 20+ amenities.",
       "images": 2,
       "highlights": [
         "Registered sale agreement",
-        "Lake-facing inventory",
-        "Designed by Studio Ansel",
-        "Resale exit · Jun 2027"
+        "Lake-facing plots",
+        "Amenities",
+        "Resale exit "
       ],
       "default-image": 1
     }
