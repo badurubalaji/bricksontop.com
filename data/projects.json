@@ -25,21 +25,22 @@
     {
       "id": "Natures Nest by NPS",
       "name": "NPS Natures Nest",
-      "type": "Apartment · Direct deed",
+      "type": "Apartment · Agreement",
       "developer": "NPS",
       "location": "kannamangala, Whitefield",
       "status": "current",
       "price": "₹60 L onwards",
       "units": "800 flats · 0 open",
       "area": "30 Acres",
-      "possession": "Open-ended hold",
-      "rera": "RERA acknoledgement",
+      "possession": "2029",
+      "rera": "RERA acknowledgement",
       "tagline": "Land that works while you wait.",
       "description": "High rise apartments.",
       "images": 2,
       "highlights": [
         "Sale deed in investor's name",
-        "numerous schools near by"
+        "numerous schools near by",
+        "100+ amenities"
         
       ],
       "default-image": 1
@@ -50,18 +51,18 @@
       "type": "Plotted Development · Direct deed",
       "developer": "Sannidhi Group",
       "location": "Malur, Bengaluru ",
-      "status": "closed",
+      "status": "completed",
       "price": "₹12 L onwards",
       "units": "530 Plots · 0 open",
       "area": "53 Acres",
       "possession": "24-month exit",
       "rera": "PRM/KA/RERA/1251/446/PR/200116/003955",
-      "tagline": "The airport corridor, plotted.",
-      "description": "BDA-approved plotted development 8 km from Kempegowda International Airport. Investors register the plot directly and exit in tranches as the corridor re-prices.",
+      "tagline": "Bali themed plots.",
+      "description": "RERA approved plotted development near Malur.",
       "images": 2,
       "highlights": [
-        "BDA-approved layout",
-        "Direct sale deed in your name",
+        "RERA-approved layout",
+        "30+ amenities, cricket ground",
         "Exit in tranches over 24 months",
         "Underground power + fibre"
       ],
