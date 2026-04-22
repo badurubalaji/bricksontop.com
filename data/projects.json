@@ -23,6 +23,28 @@
       "default-image": 1
     },
     {
+      "id": "apartments at STRR junction Hoskote",
+      "name": "apartments at STRR junction Hoskote",
+      "type": "High raise apartments · investment",
+      "developer": "Premium builder with 10+ years experience and succesfully executed 50+ floors project",
+      "location": "STRR junction Hoskote, Bengaluru",
+      "status": "current",
+      "price": "45 L onwards",
+      "units": "15 apartments · 4 open",
+      "area": "35 Acres",
+      "possession": "48-month exit",
+      "rera": "land acquistion phase",
+      "tagline": "A quiet forest of teak, stone & sky",
+      "description": "35 acres proposed integrated community. Phase 1 is 10 acres apartmeent and 25 acres villas at Prime location of STRR junction hoskote, future hub.",
+      "images": 2,
+      "highlights": [
+        "Registered partnership share",
+        "MOU",
+        "Exit at handover · Dec 2030"
+      ],
+      "default-image": 1
+    },
+    {
       "id": "Natures Nest by NPS",
       "name": "NPS Natures Nest",
       "type": "Apartment · Agreement",
