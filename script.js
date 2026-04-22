@@ -184,7 +184,7 @@
              : Array.isArray(p.images) ? p.images.length : 0;
     const arr = [];
     for (let i = 1; i <= n; i++) {
-      arr.push(`assets/images/${p.id}/${i}.jpg`);
+      arr.push(`assets/images/${encodeURIComponent(p.id)}/${i}.jpg`);
     }
     return arr;
   }
